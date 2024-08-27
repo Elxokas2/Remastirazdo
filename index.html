@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
+      <!--=============== REMIXICONS ===============-->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Responsive dropdown menu - Bedimcode</title>
+   </head>
+   <body>
+      <!--=============== HEADER ===============-->
+      <header class="header">
+         <nav class="nav container">
+            <div class="nav__data">
+               <a href="#"  class="nav__logo">
+                  <i class="ri-window-2-line"></i> Company
+               </a>
+               
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-line nav__burger"></i>
+                  <i class="ri-close-line nav__close"></i>
+               </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li><a href="#" class="nav__link">Inicio</a></li>
+
+                  <li><a href="#" class="nav__link">Agregar Libros</a></li>
+
+                  <!--=============== DROPDOWN 1 ===============-->
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Libros <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="assets/contabilidad.html" class="dropdown__link">
+                              <i class="ri-pie-chart-line"></i> Contabilidad
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="assets/economia.html" class="dropdown__link">
+                              <i class="ri-line-chart-line"></i> Economia
+                           </a>
+                        </li>
+
+                        <li>
+                           <a href="assets/biologia.html" class="dropdown__link">
+                              <i class="ri-microscope-line"></i> Biologia
+                           </a>
+                        </li>
+
+                        <li>
+                           <a href="assets/historia.html" class="dropdown__link">
+                              
+                              <i class="ri-book-open-line"></i> Historia
+                           </a>
+                        </li>
+
+                        <!--=============== DROPDOWN SUBMENU ===============-->
+                        <li class="dropdown__subitem">
+                           <div class="dropdown__link">
+                              <i class="ri-bar-chart-horizontal-line"></i> Otros <i class="ri-add-line dropdown__add"></i>
+                           </div>
+
+                           <ul class="dropdown__submenu">
+                              <li>
+                                 <a href="assets/matematicas.html" class="dropdown__sublink">
+                                    <i class="ri-compasses-2-line"></i> Matematicas
+                                 </a>
+                              </li>
+      
+                              <li>
+                                 <a href="#" class="dropdown__sublink">
+                                    <i class="ri-cash-line"></i> Sociologia
+                                 </a>
+                              </li>
+      
+                              <li>
+                                 <a href="#" class="dropdown__link">
+                                    <i class="ri-quill-pen-line"></i> Lengua
+                                 </a>
+                              </li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </li>
+                  
+
+
+                  <!--=============== DROPDOWN 2 ===============-->
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Como Aprobar<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="assets/pages/tecnica1.html" class="dropdown__link">
+                              <i class="ri-blender-line"></i> Tecnicas
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-lightbulb-flash-line"></i> Metodos
+                           </a>
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-presentation-line"></i> Habitos
+                           </a>
+                        </li>
+                     </ul>
+                  </li>
+
+                  <li><a href="#" class="nav__link">Colegio</a></li>
+
+                  <li><a href="#" class="nav__link">Creadores</a></li>
+               </ul>
+            </div>
+         </nav>
+      </header>
+
+
+      <main>
+         <ul class="text">
+             <h3>¿Para que sirve Librery.io?</h3>
+             <section>
+                 <br>
+                 
+                 <button>
+                     #Yo Puedo Programar
+                 </button>
+                 <br>
+                 <article class="art">
+                 <p class="p">Librery.io fue creada para el colegio, es una simple pagina en la cual vas a encontrar los mismo libros que en biblioteca solo que los podras encontrar de forma virtual.
+                     <br> los libros son completamentes gratuitos para todos.
+                 </p>
+                 <br>
+                 <p>Tambien en librery.io solo los docentes, podran compartir sus libros, proyectos o cualquier cosa que tenga que ver con lo informativo
+                     <br> <strong>Recuerda;</strong> si subes algun archivo que no tenga que ver seras bloqueado por 7 dias de la web. si tu comportamiento no cambia antes las primeras advertencias se tomaran desiciones mas drasticas.
+                 </p>
+             </article>
+                 <br>
+             </section>
+         </ul>
+
+   
+
+
+         <div class="footer-dark">
+            <footer>
+               <div class="container">
+                  <div class="row">
+                        <div class="col-sm-6 col-md-3 item">
+                           <h3>Servicios</h3>
+                           <ul>
+                              <li><a href="#">Clase de Apoyo</a></li>
+                              <li><a href="#">Revistas Virtuales</a></li>
+                              <li><a href="#">Micro - Emprendimientos</a></li>
+                           </ul>
+                        </div>
+                        <div class="col-sm-6 col-md-3 item">
+                           <h3>¿Quienes somos?
+                           </h3>
+                            <ul>
+                              <li><a href="#">Creadores</a></li>
+                              <li><a href="#">Diseñadores</a></li>
+                              <li><a href="#">Profesores</a></li>
+                           </ul>
+                        </div>
+                        <div class="col-md-6 item text">
+                           <h3>Librery.io</h3>
+                           <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                        </div>
+                        <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                  </div>
+                  <p class="copyright">Company Name © 2018</p>
+               </div>
+            </footer>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
